@@ -1,0 +1,9 @@
+<div class="fire-canvas"> 
+    <table>
+        <tr *ngFor="let row of rows">
+            <td id="{{column + (row * fireWidth)}}" *ngFor="let column of columns">
+                <div class="pixel-index pixel"></div>
+            </td>
+        </tr>
+    </table>
+</div>
